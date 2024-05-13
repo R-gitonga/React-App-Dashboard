@@ -48,7 +48,7 @@ const BarChart = ({ isDashboard = false }) => {
         ]}
         indexBy="country"
         margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
-        padding={0.35}
+        padding={0.3}
         valueScale={{ type: 'linear' }}
         indexScale={{ type: 'band', round: true }}
         colors={{ scheme: 'nivo' }}
@@ -153,10 +153,11 @@ const BarChart = ({ isDashboard = false }) => {
             }
         ]}
         role="application"
-        ariaLabel="Nivo bar chart demo"
-        barAriaLabel={e=>e.id+": "+e.formattedValue+" in country: "+e.indexValue}
+        barAriaLabel={function (e) {
+            return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
+        }}
     />
-    )
+    );
 };
 
 export default BarChart;
