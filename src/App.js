@@ -5,6 +5,7 @@ import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
+import TeamWithDatabase from "./scenes/team/databaseTeam";
 import Invoices from "./scenes/invoices";
 import Contacts from "./scenes/contacts";
 import Bar from "./scenes/bar";
@@ -37,6 +38,7 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/geography" element={<Geography />} />
               <Route path="/calendar" element={<Calendar />} />
+              <Route path="/databaseTeam" element={<TeamWithDatabase />} />
             </Routes>
           </main>
         </div>

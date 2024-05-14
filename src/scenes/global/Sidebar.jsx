@@ -116,7 +116,7 @@ const Sidebar = () => {
                     )}
 
                     {/* Menu Items */}
-                    <box paddingLeft={isCollapsed ? undefined : "10%"}>
+                    <box paddingleft={isCollapsed ? undefined : "10%"}>
                         <Item 
                             title="Dashboard" 
                             to="/" 
@@ -134,6 +134,13 @@ const Sidebar = () => {
                         <Item 
                             title="Manage Team" 
                             to="/team" 
+                            icon={<PeopleOutlinedIcon />} 
+                            selected={selected} 
+                            setSelected={setSelected} 
+                        />
+                        <Item 
+                            title="Manage Team from Database" 
+                            to="/databaseTeam" 
                             icon={<PeopleOutlinedIcon />} 
                             selected={selected} 
                             setSelected={setSelected} 

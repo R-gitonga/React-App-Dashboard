@@ -44,6 +44,8 @@ const Team = () => {
                 <Box width="60%"
                 m="0 auto"
                 p="5px"
+                display="flex"
+                alignItems="center"
                 justifyContent="center"
                 backgroundColor={
                     access === "admin"
