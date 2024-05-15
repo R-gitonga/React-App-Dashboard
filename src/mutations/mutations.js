@@ -33,3 +33,9 @@ mutation SaveUser (
     )
 }
 `;
+
+export const BULK_DELETE_USERS = gql`
+mutation BulkDeleteUsers($userIds: [Int!]!) {
+    bulkDeleteUsers(userIds: $userIds)
+}
+`;

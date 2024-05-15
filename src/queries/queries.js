@@ -22,3 +22,15 @@ export const GET_ALL_USERS_WITH_ROLES = gql`
         }
     }
 `;
+
+export const GET_ALL_ROLES = gql `
+    query{
+        userRole {
+            role {
+                roleId
+                roleName
+            }
+        }
+    }
+    `;
+

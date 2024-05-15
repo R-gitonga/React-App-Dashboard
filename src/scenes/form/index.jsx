@@ -42,10 +42,6 @@ const userSchema = yup.object().shape({
         .matches(phoneRegExp, "Phone number is not valid")
         .required("required"),
     userPassword: yup.string().required("required"),
-    // created_at: yup.string().required("required"),
-    // updated_at: yup.string().required("required"),
-    // lastLogin: yup.string().required("required"),
-    // registrationDate: yup.string().required("required"),
     createdBy: yup.string().required("required"),
     updatedBy: yup.string().required("required"),
     roleId: yup.string().required("required"),
