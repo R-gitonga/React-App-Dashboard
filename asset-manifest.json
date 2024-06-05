@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/EMSFrontEndWithReact/static/css/main.6d211d42.css",
-    "main.js": "/EMSFrontEndWithReact/static/js/main.21210aab.js",
-    "index.html": "/EMSFrontEndWithReact/index.html",
-    "main.6d211d42.css.map": "/EMSFrontEndWithReact/static/css/main.6d211d42.css.map",
-    "main.21210aab.js.map": "/EMSFrontEndWithReact/static/js/main.21210aab.js.map"
+    "main.css": "/React-App-Dashboard/static/css/main.6d211d42.css",
+    "main.js": "/React-App-Dashboard/static/js/main.21210aab.js",
+    "index.html": "/React-App-Dashboard/index.html",
+    "main.6d211d42.css.map": "/React-App-Dashboard/static/css/main.6d211d42.css.map",
+    "main.21210aab.js.map": "/React-App-Dashboard/static/js/main.21210aab.js.map"
   },
   "entrypoints": [
     "static/css/main.6d211d42.css",
