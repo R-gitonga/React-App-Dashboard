@@ -2,7 +2,7 @@
   "name": "react-admin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://R-gitonga.github.io/EMSFrontEndWithReact",
+  "homepage": "https://r-gitonga.github.io/React-App-Dashboard",
   "dependencies": {
     "@apollo/client": "^3.10.3",
     "@emotion/react": "^11.11.4",
